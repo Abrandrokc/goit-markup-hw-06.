@@ -382,9 +382,6 @@ position: relative;
     background-color: #F4F4FD;
     padding: 0;
     margin-bottom: 0;
-    position: absolute;
-        transform: translateY(10000%);
-        overflow: hidden;
         display: none;
 }
 
@@ -691,7 +688,7 @@ position: relative;
                                                 padding-bottom: 188px;
                                                 max-width: 1440px;
                                          }
-                                                                                 .benefits-images-list{transform: translateY(0);
+                                                                                 .benefits-images-list{
                                                                                 position: relative;
                                                                                 height: 112px;
                                                                                 border-radius: 4px;
