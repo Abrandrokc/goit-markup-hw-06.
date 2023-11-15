@@ -385,7 +385,7 @@ position: relative;
         display: none;
 }
 
-.name-benefits , .name{
+.name-benefits , .name, .name-project{
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -393,14 +393,15 @@ position: relative;
         text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;}
-.about-benefits, .work{
+        .name-project{text-align:left;}
+.about-benefits, .work, .type-project{
         color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-weight:500;
     }
-        .our-team {
+        .our-team, .project {
             padding-bottom: 72px;
             font-weight: 700;
                 font-size: 36px;
@@ -479,8 +480,54 @@ position: relative;
         .our-team-svg {
             fill: #f4f4fd;
         }
-      
+                  .overlay {
+                      position: relative;
+                      overflow: hidden;}
+                  .overlay-text {
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      Width: 100%;
+                      Height: 100%;
+                      background-color: #4D5AE5;
+                      padding: 40px 32px;
+                      transform: translateY(100%);
+                      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                      color: #F4F4FD;
+                      font-size: 16px;
+                      line-height: 1.5;
+                      letter-spacing: 0.02em;
+                      overflow: auto;
         
+                  }
+        
+                  .project-name:hover .overlay-text {
+                      transform: translateY(0);
+                  }
+        
+                  .project-list {
+                      display: flex;
+                    flex-direction: column;
+                      gap: 72px;
+                      
+                  }
+        
+                  .project-name {
+                      transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                  }
+                .project-name:hover .overlay-text {
+                    transform: translateY(0);
+                }
+                  .project-name:hover {
+                      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+                          0px 1px 1px rgba(46, 47, 66, 0.16),
+                          0px 2px 1px rgba(46, 47, 66, 0.08);
+                  }
+                .app-name {
+                    padding: 32px 16px;
+                    border: 1px solid #e7e9fc;
+                    border-top: none;
+                }
 @media screen and (max-width: 767px) {
 
     .mobile-burger {
@@ -728,6 +775,16 @@ position: relative;
 .our-team-pepole {
     width: calc((100% - 24px) / 2);
 }
+.project-list {
+    flex-direction: row;
+    gap: 24px;
+    row-gap: 72px;
+    flex-wrap: wrap;
+}
+
+.project-name {
+    width: calc((100% - 24px) / 2);
+}
 
 }
                 @media screen and (min-width: 1158px) {
@@ -767,6 +824,15 @@ position: relative;
  }
  .team-section {
     margin-bottom: 120px;
+ }
+ .project-list {
+    flex-direction: row;
+    gap: 24px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+ }
+ .project-name{
+    width: calc((100% - 48px) / 3);
  }
                                                                                  
                 }
