@@ -393,7 +393,8 @@ position: relative;
         text-align: center;
     color: #2e2f42;
     margin-bottom: 8px;}
-.about-benefits{
+.about-benefits,
+.work{
         color: #434455;
         font-size: 16px;
         line-height: 1.5;
