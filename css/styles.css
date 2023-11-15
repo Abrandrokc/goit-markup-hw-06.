@@ -421,6 +421,9 @@ position: relative;
     .four{
         width: 320px;
     }
+    .team-section{
+        margin-bottom: 96px;
+    }
         .pepole {
             padding-top: 32px;
             padding-bottom: 32px;
@@ -476,6 +479,8 @@ position: relative;
         .our-team-svg {
             fill: #f4f4fd;
         }
+      
+        
 @media screen and (max-width: 767px) {
 
     .mobile-burger {
@@ -723,6 +728,7 @@ position: relative;
 .our-team-pepole {
     width: calc((100% - 24px) / 2);
 }
+
 }
                 @media screen and (min-width: 1158px) {
                     .container{
@@ -759,6 +765,31 @@ position: relative;
     gap:24px;
     flex-wrap: nowrap;
  }
+ .team-section {
+    margin-bottom: 120px;
+ }
                                                                                  
                 }
+                          @media screen and (min-resolution: 192dpi),
+                          screen and (min-resolution: 2dppx),
+                          screen and (min-devise-pixel-ratio: 2) {
+                              .hero-section {
+                                  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mobile@2x.jpg);
+                              }
+                          }
             
+                                                  @media screen and (min-resolution: 192dpi),
+                                                  screen and (min-resolution: 2dppx),
+                                                  screen and (min-devise-pixel-ratio: 2) {
+                              .hero-section {
+                                  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-leptop@2x.jpg);
+                              }
+                          }
+            
+                                                  @media screen and (min-resolution: 192dpi),
+                                                  screen and (min-resolution: 2dppx),
+                                                  screen and (min-devise-pixel-ratio: 2) {
+                              .hero-section {
+                                  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
+                              }
+                          }
