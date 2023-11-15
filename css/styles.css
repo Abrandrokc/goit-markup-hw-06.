@@ -385,7 +385,7 @@ position: relative;
         display: none;
 }
 
-.name-benefits {
+.name-benefits , .name{
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -400,6 +400,58 @@ position: relative;
         letter-spacing: 0.02em;
         font-weight:500;
     }
+        .our-team {
+            padding-bottom: 72px;
+        }
+    
+        .our-team-list {
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+    .four{
+        width: 320px;
+    }
+        .pepole {
+            padding-top: 32px;
+            padding-bottom: 32px;
+            width: 100%;
+        }
+    
+        .our-team-images {
+            display: flex;
+            margin-top: 8px;
+            gap: 24px;
+            margin-left: 16px;
+            margin-right: 16px;
+            justify-content: center;
+        }
+    
+        .our-team-images-list {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+    
+        }
+    
+        .our-team-images-link {
+            width: 100%;
+            height: 100%;
+            background-color: #4d5ae5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    
+        .our-team-images-link:hover,
+        .our-team-images-link:focus {
+            background-color: #404bbf;
+        }
+    
+        .our-team-svg {
+            fill: #f4f4fd;
+        }
 @media screen and (max-width: 767px) {
 
     .mobile-burger {
@@ -515,39 +567,6 @@ position: relative;
         color: #404BBF;
     }
 
-    .our-team-images {
-        display: flex;
-        gap: 40px;
-
-
-    }
-
-    .our-team-images-list {
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-
-    }
-
-    .our-team-images-link {
-        width: 100%;
-        height: 100%;
-        background-color: #4d5ae5;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .our-team-images-link:hover,
-    .our-team-images-link:focus {
-        background-color: #404bbf;
-    }
-
-    .our-team-svg {
-        fill: #f4f4fd;
-    }
   
 }
 @media screen and (min-width: 320px) {
