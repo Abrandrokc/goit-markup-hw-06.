@@ -482,7 +482,8 @@ position: relative;
         }
                   .overlay {
                       position: relative;
-                      overflow: hidden;}
+                      overflow: hidden;
+                    display: none;}
                   .overlay-text {
                       position: absolute;
                       top: 0;
@@ -858,4 +859,5 @@ position: relative;
                               .hero-section {
                                   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
                               }
+                              
                           }
