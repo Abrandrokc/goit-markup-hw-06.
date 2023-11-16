@@ -527,6 +527,167 @@ position: relative;
                     border: 1px solid #e7e9fc;
                     border-top: none;
                 }
+                                .footer {
+                                    background-color: #2E2F42;
+                                    padding-top: 96px;
+                                    padding-bottom: 96px;
+                                }
+                                .six {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: baseline;
+                                    gap: 72px;
+                                }
+                
+                                
+                
+                                .company-footer {
+                                    font-family: 'Raleway',
+                                        sans-serif;
+                                    font-weight: 700;
+                                    line-height: 1.17;
+                                    font-size: 18px;
+                                    color: #4d5ae5;
+                                    letter-spacing: 0.03em;
+                                    text-transform: uppercase;
+                                    text-align: center;
+                                    margin-left: 102px;
+                                    
+                                   
+                                    
+                                    
+                
+                                }
+                
+                                .company-footer .web {
+                                    color: #f4f4fd;
+                                }
+                                .footer-text {
+                                    color: #F4F4FD;
+                                    font-size: 16px;
+                                    line-height: 1.5;
+                                    letter-spacing: 0.02em;
+                                    margin-top: 16px;
+                                }
+                
+                                .footer-images-list {
+                                    border-radius: 50%;
+                                    border-color: #4D5AE5;
+                                    background-color: #4D5AE5;
+                                    width: 40px;
+                                    height: 40px;
+                                }
+                
+                                .footer-link {
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: #4d5ae5;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                                }
+                
+                                .footer-link:hover,
+                                .footer-link:focus {
+                                    background-color: #31d0aa;
+                                }
+                
+                                .footer-team-images {
+                                    display: flex;
+                                    margin-top: 8px;
+                                    gap: 16px;
+                                    list-style: none;
+                                }
+                
+                                
+                
+                                .footer-send-form {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 24px;
+                                }
+                
+                                .footer-send-text {
+                                    margin-bottom: 16px;
+                                    width: 75px;
+                                    height: 0.32;
+                                    font-family: Roboto;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    line-height: 24px;
+                                    letter-spacing: 0.02em;
+                                    text-align: left;
+                                    color: white;
+                                    margin-left: auto;
+                                        margin-right: auto;
+                                }
+                
+                                .footer-send-form {
+                                    display: flex;
+                                    margin-left: auto;
+                                }
+                
+                                .footer-send-input {
+                                    width: 290px;
+                                    height: 40px;
+                                    border: 1px solid #FFFFFF;
+                                    color: #FFFFFF;
+                                    border-radius: 4px;
+                                    padding-left: 16px;
+                                    font-family: Roboto;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    line-height: 1.5;
+                                    letter-spacing: 0.04em;
+                                    text-align: left;
+                                    background-color: transparent;
+                                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+                                }
+                
+                                .footer-send-button {
+                
+                                    max-width: 165px;
+                                    
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    background-color: #4D5AE5;
+                
+                                    font-family: "Roboto", sans-serif;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                    line-height: 24px;
+                                    letter-spacing: 0.04em;
+                                    text-align: center;
+                                    color: #FFFFFF;
+                                    cursor: pointer;
+                                    border: none;
+                                    border-radius: 4px;
+                                    padding-top: 8px;
+                                    padding-bottom: 8px;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                }
+                
+                                .footer-send-svg {
+                                    margin-left: 16px;
+                                    fill: #FFFFFF;
+                                }
+                                .social-media {
+                                    color: #FFFFFF;
+                                    margin-bottom: 16px;
+                                    font-size: 16px;
+                                    line-height: 1.5;
+                                    letter-spacing: 0.02em;
+                                    font-weight: 500;
+                                    text-align: center;
+                                }
+                                .link {
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                }
 @media screen and (max-width: 767px) {
 
     .mobile-burger {
@@ -784,8 +945,38 @@ position: relative;
 .project-name {
     width: calc((100% - 24px) / 2);
 }
-
+ .six {flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: inherit;
+    gap: 0;
+    padding: 0 108px; 
+    row-gap: 72px; 
+ }
+.company-footer-box{
+    width: calc((100% - 2px) / 2);
 }
+.footer-send{
+    width: 100%;
+}
+.footer-send-form{
+    flex-direction: row;
+    gap: 24px;
+}
+.footer-send-label{
+    width: 264px;
+}
+.footer-send-button{
+    min-width: 165px;
+}
+.footer-send-text{
+    margin-left: 0;
+        margin-right: 0;
+    }
+    .company-footer{margin-left: 0;}
+}
+
+
                 @media screen and (min-width: 1158px) {
                     .container{
                         width: 1158px;
@@ -836,7 +1027,37 @@ position: relative;
    .project-name:hover .overlay-text {
        transform: translateY(0);
    }
-                                                                                 
+   .footer {
+    padding: 0;
+   }
+   .six {
+       flex-direction: row;
+       flex-wrap: nowrap;
+       align-items: baseline;
+       justify-content: inherit;
+       gap: 0;
+       padding:100px 0;
+       row-gap: 72px;
+   }
+   .company-footer-box{
+    margin-right: 120px;
+    width: 100%;
+   }
+   .footer-send-form {
+       display: flex;
+       gap: 24px;
+       
+   }
+   .footer-send{
+    padding-left: 80px;
+   }
+
+   
+   .footer-send-button {
+
+      margin-left: 24px;
+      
+   }
                 }
                           @media screen and (min-resolution: 192dpi),
                           screen and (min-resolution: 2dppx),
