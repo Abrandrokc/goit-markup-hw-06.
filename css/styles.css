@@ -483,7 +483,7 @@ position: relative;
                   .overlay {
                       position: relative;
                       overflow: hidden;
-                    display: none;}
+                    }
                   .overlay-text {
                       position: absolute;
                       top: 0;
@@ -502,9 +502,7 @@ position: relative;
         
                   }
         
-                  .project-name:hover .overlay-text {
-                      transform: translateY(0);
-                  }
+                  
         
                   .project-list {
                       display: flex;
@@ -835,6 +833,9 @@ position: relative;
  .project-name{
     width: calc((100% - 48px) / 3);
  }
+   .project-name:hover .overlay-text {
+       transform: translateY(0);
+   }
                                                                                  
                 }
                           @media screen and (min-resolution: 192dpi),
@@ -859,5 +860,5 @@ position: relative;
                               .hero-section {
                                   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
                               }
-                              
+                                                        
                           }
