@@ -82,8 +82,7 @@ width: 100%;
 height: 4px;
 left: 0;
 position: absolute;
-top: 100%;
-bottom: -1px;
+bottom: -25px;
 border-radius: 2px}
 .addres-list{color: #434455;font-weight: 400;
     font-size: 16px;
