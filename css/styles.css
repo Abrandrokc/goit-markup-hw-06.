@@ -383,22 +383,29 @@ position: relative;
         display: none;
 }
 
-.name-benefits , .name, .name-project{
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-    color: #2e2f42;
-    margin-bottom: 8px;}
+
         .name-project{text-align:left;}
-.about-benefits, .work, .type-project{
-        color: #434455;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        font-weight:500;
-    }
+
+        .name,.name-benefits,
+        .name-project {
+          
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.02em;
+            
+                color: #2E2F42;
+        }
+          .name  {text-align: center;}
+                .work,.about-benefits,
+                .type-project{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #434455;
+        }
+           .about-benefits {text-align:start;}
         .our-team, .project {
             padding-bottom: 72px;
             font-weight: 700;
@@ -835,11 +842,16 @@ position: relative;
         justify-content: space-between;
         padding: 0 15px 0 15px
     }
+        .company{
+            margin-right: 0;
+        }
     .navigathoin{
         display: flex;
         align-items: center;
         padding-top: 0;
         padding-bottom: 0;
+        gap: 120px;
+       
     }
     .navigathoin-page,
         .addres{display: flex;}
@@ -983,6 +995,7 @@ position: relative;
                     .container{
                         width: 1158px;
                     }
+                                        
                      .addres-list{
                         flex-direction: row;
                         gap: 40px;
