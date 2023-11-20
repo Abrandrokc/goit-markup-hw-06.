@@ -816,9 +816,7 @@ position: relative;
        gap:24px;
     }
 
-    .menu-mobile-first {
-     
-    }
+   
 
     .mobile-link {
         color: #2E2F42;
@@ -830,7 +828,7 @@ position: relative;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .mail-phon-mobile:hover,
+    .mail-phon-mobile:hover ,
     .mail-phon-mobile:focus {
         color: #4D5AE5;
     }
@@ -924,12 +922,37 @@ position: relative;
                        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                    }
         
-                   .sate:hover,
-                   .sate:focus,
-                   .mail-phon:focus,
-                   .mail-phon:hover {
-                       color: #404BBF;
-                   }
+                  
+                                         .menu  .sate {
+                                             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                                             position: relative;
+                                             color: #2e2f42;
+                                         }
+                    
+                                                                                 .sate::after {
+                                             content: "";
+                                             background-color: #404BBF;
+                                             display: block;
+                                             width: 100%;
+                                             height: 4px;
+                                             left: 0;
+                                             position: absolute;
+                                             display: none;
+                                             bottom: -35px;
+                                             border-radius: 2px
+                                         }
+                    
+                                         .menu:active  .sate::after,
+                                         .menu:hover  .sate::after,
+                                         .menu:focus .sate::after {
+                                             display: block;
+                                         }
+                                                                                  .sate:hover,
+                                                                                  .sate:focus,
+                                                                                  .mail-phon:focus,
+                                                                                  .mail-phon:hover {
+                                                                                      color: #404BBF;
+                                                                                  }
                     .hero-section {
                                        
                     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-leptop.jpg);
@@ -1031,24 +1054,16 @@ position: relative;
                         gap: 40px;
                         padding: 24px 0;
                      }
-                                         .menu .acctive {
-                                             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                                             position: relative;
-                                             color: #404bbf;
-                                         }
+                                         
                     
-                                         .acctive::after {
-                                             content: "";
-                                             background-color: #404BBF;
-                                             display: block;
-                                             width: 100%;
-                                             height: 4px;
-                                             left: 0;
-                                             position: absolute;
+                                         .sate::after {
                                              
-                                             bottom: -25px;
-                                             border-radius: 2px
+                                             bottom: -40px;
+                                             
                                          }
+                                                                                                                                                                .menu:active  .acctive::after,.menu:hover .acctive::after,.menu:focus.acctive::after{
+                                                                                                                                                                    display: block;
+                                                                                                                                                                }
                                          .hero-section{
                                             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
                                             padding-top: 188px;
