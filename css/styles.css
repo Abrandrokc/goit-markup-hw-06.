@@ -399,7 +399,7 @@ position: relative;
                 font-weight: 500;
                 line-height: 1.2;
                 letter-spacing: 0.02em;
-            padding-bottom: 8px;
+            margin-bottom: 8px;
                 color: #2E2F42;
         }
           .name  {text-align: center;}
@@ -426,9 +426,9 @@ position: relative;
             line-height: 1.5;
             letter-spacing: 0.02em;
             text-align: left;
-        padding-top: 8px;}
+        margin-top: 8px;}
         .our-team, .project {
-            padding-bottom: 72px;
+            margin-bottom: 72px;
             font-weight: 700;
                 font-size: 36px;
                 line-height: 1.11;
@@ -449,6 +449,7 @@ position: relative;
     }
     .team-section{
         padding-bottom: 96px;
+        padding-top: 96px;
         background-color: #F4F4FD;
     }
         .pepole {
@@ -529,7 +530,8 @@ position: relative;
                   }
         
                                  .project-section {
-                                    margin-bottom: 96px;
+                                    padding-top: 96px;
+                                    padding-bottom: 96px;
                                  }
         
                   .project-list {
