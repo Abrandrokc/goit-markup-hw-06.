@@ -442,7 +442,7 @@ position: relative;
             display: flex;
             gap: 72px;
             flex-direction: column;
-           
+           align-items: center;
         }
     .four{
         width: 320px;
@@ -457,6 +457,7 @@ position: relative;
             width: 100%;
         }
         .our-team-pepole {
+            width: 264px;
             background-color: #FFFFFF;
             width: calc((100%-72px)/ 4);
             border-radius: 0px 0px 4px 4px;
@@ -562,7 +563,7 @@ position: relative;
                                 .six {
                                     display: flex;
                                     flex-direction: column;
-                                    align-items: baseline;
+                                    align-items: center;
                                     gap: 72px;
                                 }
                 
@@ -634,6 +635,7 @@ position: relative;
                                     display: flex;
                                     flex-direction: column;
                                     gap: 24px;
+                                    align-items: center;
                                 }
                 
                                 .footer-send-text {
@@ -657,7 +659,7 @@ position: relative;
                                 }
                 
                                 .footer-send-input {
-                                    width: 290px;
+                                    width: 264px;
                                     height: 40px;
                                     border: 1px solid #FFFFFF;
                                     color: #FFFFFF;
@@ -694,8 +696,7 @@ position: relative;
                                     border-radius: 4px;
                                     padding-top: 8px;
                                     padding-bottom: 8px;
-                                    margin-left: auto;
-                                    margin-right: auto;
+                                   
                                 }
                 
                                 .footer-send-svg {
@@ -711,10 +712,7 @@ position: relative;
                                     font-weight: 500;
                                     text-align: center;
                                 }
-                                .link {
-                                    margin-left: auto;
-                                    margin-right: auto;
-                                }
+                                
 @media screen and (max-width: 767px) {
 
 
@@ -850,7 +848,7 @@ position: relative;
 }
 @media screen and (min-width: 320px) {
     .container {
-        width: 320px;
+        max-width: 320px;
         
     }
 }
@@ -859,7 +857,7 @@ position: relative;
             width: 408px;
             min-height: 584px;
         }
-    .container{width: 766px;}
+    .container{max-width: 768px;}
     .one{
         justify-content: space-between;
       
@@ -901,14 +899,14 @@ position: relative;
                    .addres-list {
                        color: #434455;
                        font-weight: 400;
-                       font-size: 16px;
-                       line-height: 1.5;
+                       font-size: 12px;
+                       line-height: 1.16;
                        letter-spacing: 0.02em;
                        list-style: none;
                        display: flex;
                        flex-direction: column;
                        gap: 12px;
-                       padding: 0 24px;
+                       padding: 16px 24px;
                    }
         
         
@@ -963,6 +961,9 @@ position: relative;
             
                                      
                 }
+                .four {
+                    width: 100%;
+                }
                                 
                                 .hero {
                                 
@@ -1012,7 +1013,7 @@ position: relative;
     justify-content: inherit;
     gap: 0;
     padding: 0 108px; 
-    row-gap: 72px; 
+    gap: 72px 24px; 
  }
 .company-footer-box{
     width: calc((100% - 2px) / 2);
@@ -1046,7 +1047,7 @@ position: relative;
 
                 @media screen and (min-width: 1158px) {
                     .container{
-                        width: 1158px;
+                        max-width: 1158px;
                     }
                                         
                      .addres-list{
@@ -1138,6 +1139,10 @@ position: relative;
 
       margin-left: 24px;
       
+   }
+   .addres-list {
+    font-size: 16px;
+        line-height: 1.5;
    }
                 }
                           @media screen and (min-resolution: 192dpi) and (min-width: 320px),
