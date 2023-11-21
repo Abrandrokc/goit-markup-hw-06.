@@ -310,7 +310,7 @@ body {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 318px;
+    max-width: 320px;
     padding-top: 72px;
     padding-bottom: 72px;
     text-align: center;
@@ -460,7 +460,7 @@ position: relative;
         .our-team-pepole {
             width: 264px;
             background-color: #FFFFFF;
-            width: calc((100%-72px)/ 4);
+            
             border-radius: 0px 0px 4px 4px;
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -473,9 +473,8 @@ position: relative;
 
         .our-team-images {
             display: flex;
-            padding-top: 8px;
+            margin-top: 8px;
             gap: 24px;
-           
             justify-content: center;
         }
     
@@ -597,7 +596,7 @@ position: relative;
                                     font-size: 16px;
                                     line-height: 1.5;
                                     letter-spacing: 0.02em;
-                                    padding-top: 16px;
+                                    margin-top: 16px;
                                 }
                 
                                 .footer-images-list {
@@ -626,7 +625,7 @@ position: relative;
                 
                                 .footer-team-images {
                                     display: flex;
-                                    margin-top: 8px;
+                                    
                                     gap: 16px;
                                     list-style: none;
                                 }
@@ -814,6 +813,7 @@ position: relative;
         display: flex;
        flex-direction: column;
        gap:24px;
+       font-style: normal;
     }
 
    
@@ -862,6 +862,8 @@ position: relative;
     .container{max-width: 768px;}
     .one{
         justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 24px;
       
     }
         .company{
@@ -908,7 +910,7 @@ position: relative;
                        display: flex;
                        flex-direction: column;
                        gap: 12px;
-                       padding: 16px 24px;
+                    justify-content: center;
                    }
         
         
@@ -938,7 +940,7 @@ position: relative;
                                              left: 0;
                                              position: absolute;
                                              display: none;
-                                             bottom: -35px;
+                                             bottom: -42px;
                                              border-radius: 2px
                                          }
                     
@@ -995,9 +997,10 @@ position: relative;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 64px;
+    justify-content: center;
 }
 .our-team-pepole {
-    width: calc((100% - 24px) / 2);
+    width: 264px;
 }
 .project-list {
     flex-direction: row;
@@ -1020,9 +1023,7 @@ position: relative;
 .company-footer-box{
     width: calc((100% - 2px) / 2);
 }
-.footer-send{
-    width: 100%;
-}
+
 .footer-send-form{
     flex-direction: row;
     gap: 24px;
@@ -1061,7 +1062,7 @@ position: relative;
                     
                                          .sate::after {
                                              
-                                             bottom: -40px;
+                                             bottom: -50px;
                                              
                                          }
                                                                                                                                                                 .menu:active  .acctive::after,.menu:hover .acctive::after,.menu:focus.acctive::after{
@@ -1093,9 +1094,7 @@ position: relative;
     gap:24px;
     flex-wrap: nowrap;
  }
- .team-section {
-    margin-bottom: 120px;
- }
+ 
  .project-list {
     flex-direction: row;
     gap: 24px;
@@ -1109,39 +1108,30 @@ position: relative;
        transform: translateY(0);
    }
    .footer {
-    padding: 0;
+    padding: 100px 16px ;
    }
    .six {
        flex-direction: row;
        flex-wrap: nowrap;
        align-items: baseline;
        justify-content: inherit;
-       gap: 0;
-       padding:100px 16px;
-       row-gap: 72px;
+       gap: 80px;
+       padding-left: 0;
+       padding-right: 0;
+       
    }
   .company-footer-box{display: inline-block;
+    margin-right: 40px;
 }
    .footer-send-form {
        display: flex;
        gap: 24px;
        
    }
-   .footer-send{
-    padding-left: 80px;
-    width: 453px;
-   }
-.link{
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 120px;
-}
-        
-   .footer-send-button {
+   
 
-      margin-left: 24px;
-      
-   }
+        
+   
    .addres-list {
     font-size: 16px;
         line-height: 1.5;
